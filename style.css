@@ -1,0 +1,59 @@
+#container, .container2 {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  width: 1030px;
+}
+
+.container2 div {
+  background: white;
+  width: 1030px;
+  border: 1px solid black;
+  height: 173px;
+}
+
+/* css for non-selected div*/
+
+.items {
+  background: white;
+  width: 341px;
+  border: 1px solid black;
+  height: 173px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* css for selected div*/
+.boxitemred, .boxitemorange, .boxitemyellow, .boxitemgreen, .boxitemviolet, .boxitemblue, .boxitemblue {
+  width: 341px;
+  border: 1px solid black;
+  height: 173px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxitemred {
+  background-color: red;
+}
+
+.boxitemorange {
+  background-color: orange;
+}
+
+.boxitemyellow {
+  background-color: yellow;
+}
+
+.boxitemgreen {
+  background-color: green;
+}
+
+.boxitemviolet {
+  background-color: violet;
+}
+
+.boxitemblue {
+  background-color: blue;
+}
